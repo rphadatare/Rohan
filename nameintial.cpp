@@ -15,7 +15,7 @@ int main()
 
     int len = s.length();
 
-    cout<<"String len = "<<len<<endl;
+    //cout<<"String len = "<<len<<endl;
     int count = 0,w_count = 0, i = 0,j = 0;
 
     for(i = len; i>=0 ; i--)
@@ -26,9 +26,9 @@ int main()
             break;
         }
     }
-    cout<<"Whitespace = "<<w_count<<endl;
+    //cout<<"Whitespace = "<<w_count<<endl;
     int lw = w_count-2;
-    cout<<"Whitespace = "<<w_count<<endl;
+    //cout<<"Whitespace = "<<w_count<<endl;
     int k = len - w_count;
     
     for(i = 0,j = len-lw; j < len ; j++,i++)
